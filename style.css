@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  box-shadow: rgba(0, 0, 0.35) 0px 7px 29px 0px;
+  max-width: 27vw;
+  min-height: 40vw;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-top: 20px;
+  background-color: #202225;
+  border-radius: 10px;
+}
+.banner img {
+  margin-left: -14px;
+  position: absolute;
+  z-index: 1;
+  width: 356px;
+  background-attachment: fixed;
+  border-radius: 10px;
+}
+.banner .gif-svg {
+  margin-left: 310px;
+  position: absolute;
+  z-index: 2;
+  width: 30px;
+  top: 20px;
+}
+.avatar img {
+  position: absolute;
+  z-index: 2;
+  width: 95px;
+  border-radius: 100%;
+  left: 503px;
+  top: 125px;
+}
+.username p {
+  color: #b9bbbe;
+  font-family: Trebuchet MS;
+  font-weight: 600;
+  font-size: 20px;
+}
+.svg .hypesquad {
+  margin-top: 165px;
+  margin-left: 250px;
+}
+.about-me {
+  font-size: 13px;
+  font-weight: 400;
+  color: #b9bbbe;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.github-box {
+  margin-top: 15px;
+}
+.github-box img {
+  width: 30px;
+  height: 30px;
+  margin-left: -328px;
+}
+.github-box p {
+  margin-left: -295px;
+  margin-top: -26px;
+}
+.twitter-box img {
+  width: 30px;
+  margin-left: -328px;
+  margin-top: 10px;
+}
+.twitter-box p {
+  margin-left: -295px;
+  margin-top: -26px;
+}
+.youtube-box img {
+  width: 30px;
+  margin-left: -328px;
+  margin-top: 10px;
+}
+.youtube-box p {
+  margin-left: -295px;
+  margin-top: -26px;
+}
